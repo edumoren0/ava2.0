@@ -14,7 +14,15 @@ public class Produto {
     private String nome;
     private int estoque;
     private float preco;
+    private String usuario;
     
+    
+	public String getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
 	public Long getId() {
 		return id;
 	}
